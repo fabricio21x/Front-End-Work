@@ -1,0 +1,250 @@
+*{
+	box-sizing:border-box;
+	font-family: Georgia;
+}
+img{
+	max-width: 100%;
+}
+.page{
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.main-header{
+	border-top: solid 5px #21A6E2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #2F2F2F;
+	height: 150px;
+}
+.logo{
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+	font-weight: lighter;
+}
+	.logo__text{
+		color: grey;
+		font-size: 11px;
+		margin: 0;
+		padding: 0;
+	}
+	.logo__item{
+		color: white;
+		text-decoration: none;
+		font-size: 26px;
+	}
+.header-nav{
+	width: 700px;
+	margin:0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+	.header-nav__item{
+		flex-grow: 1;
+		align-items: center;
+	}
+	.header-nav__link{
+		padding: 15px;
+		text-align: center;
+		color: white;
+		text-decoration: none;
+		font-size: 14px;
+		font-weight: lighter;
+	}
+	.header-nav__link--left{
+		background-color: #21A6E2;
+		border-radius: 10px;
+	}
+	.header-nav__link:hover{
+		background-color: grey;
+		transition: background-color 400ms;
+	}
+.main-title{
+	padding-top: 25px;
+	height: 450px;
+	text-align: left;	
+}
+	.main-title h2{
+		color: #2F2F2F;
+		font-size: 110px;
+		margin: 0;
+		padding: 0;
+		padding-left: 20px;
+		font-weight: lighter;
+	}
+.main-icons, .main-team-bar{
+	color: #2F2F2F;
+	margin-right: 10px;
+	margin-left: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+	.main-icons__item{
+		border: solid 1px #CECECE;/*#2F2F2F*/
+		margin-right: 10px;
+		margin-left: 10px;
+		padding: 15px 15px;
+		width: 225px;
+		text-align: center;
+		flex-grow: 1;
+		align-items:center;
+	}
+	.main-icons__item p{
+		font-size: 14px;
+		color: #949494;
+	}
+	.main-icons__item h3{
+		margin: 10px 0;
+		font-size: 35px;
+		font-weight: lighter;
+	}
+	.main-icons__image{
+		font-size: 120px;
+	}
+	.main-icons__item:hover{
+		border-color: #21A6E2;
+		background-color: #21A6E2;
+		color: #fff;
+		transition: background-color 400ms;
+		cursor: pointer;
+	}
+.main-team-title{
+	text-align: center;
+	margin: 30px 20px;
+}
+	.main-team-title h2{
+		margin: 0;
+		padding: 0;
+		font-size: 125px;
+		font-weight: lighter;
+		color: #CECECE;
+	}
+
+	.main-team-bar__item{
+		margin-right: 10px;
+		margin-left: 10px;
+		width: 225px;
+		text-align: center;
+		flex-grow: 1;
+		align-items:center;
+	}
+	.main-team-bar__item h3{
+		margin: 10px 0;
+		font-weight: bolder;
+		font-size: 15px;	
+	}
+	.main-team-bar__item p{
+		border-top: solid 1px #CECECE;
+		margin: 0;
+		padding: 10px 0;
+		text-align: justify;
+		color: #949494;
+		font-weight: lighter;
+	}
+	.team__image{
+		flex-basis: 225px;
+	}
+	.main-team__linkBox{
+		text-align: right;
+	}
+
+.main-content{
+	margin-bottom: 30px;
+}
+.link{
+	text-decoration: none;
+	color: #21A6E2;
+	font-weight: lighter;
+}
+.main-footer{
+	background-color: #2F2F2F;
+}
+.footerSections{
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+	.footerSections__item{
+		margin-right: 10px;
+		margin-left: 10px;
+		width: 225px;
+		flex-grow: 1;
+		align-items:center;
+		color: #949494;
+	}
+	.footerSections__item h3{
+		font-size: 18px;
+		font-weight: lighter;
+		padding: 0;
+		margin: 35px 0;
+		color: white;
+	}
+	.footer-nav{
+		list-style: none;
+		padding: 0;
+	}
+	.footer-nav__item{
+		border-bottom: solid 1px #464646;
+		padding: 5px 0;
+		font-weight: lighter;
+		font-size: 15px;
+	}
+
+
+
+.footer-copyright{
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #292929;
+	color: #CECECE;
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.button{
+	border: none;
+	color: white;
+	padding: 10px;
+	font-weight: bolder;
+}
+.button:hover{
+	background-color: grey;
+	transition: background-color 400ms;
+	cursor: pointer ;
+}
+.form__item{
+	border: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 225px;
+	padding: 10px;
+	color: #CECECE;
+	background-color: #262626;
+}
+.form__item:focus{
+	color: #CECECE;
+	outline: solid 1px #21A6E2;
+}
+.textbox{
+	height: 70px;
+	resize: none;
+}
+
+.footer-blog p{
+	margin: 0;
+	padding: 5px 0;
+}
+	.footer-blog__date{
+		font-size: 11px;
+	}
+	.footer-blog__user{
+		font-size: 12px;
+	}

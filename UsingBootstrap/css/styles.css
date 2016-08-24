@@ -1,0 +1,260 @@
+.navbar--purple{
+	background-color: rgba(163, 71, 255, 0.8);
+	color: rgba(163, 71, 255, 0.5);
+
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    height: 100%;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	    background-color: rgba(163, 71, 255, 1);
+	 	transition: background-color 250ms;
+ 	}
+
+@media only screen and (max-width: 767px){
+ 	.navbar-nav {
+	    margin: 7.5px -15px;
+	}
+}       
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #A347FF;
+	background-color: white;
+	transition: color 200ms, background-color;
+}
+
+.logo{
+	float: left;
+	top: 0;
+	padding-right: 30px;
+}
+.title{
+	color: rgba(163, 71, 255,1);
+}
+
+
+.margins{
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding: 30px 0;
+}
+
+.box-config{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.box{
+	border: solid 2px rgba(144,172,196,0.7);
+}
+
+.glyphicon--50{
+	font-size: 50px;
+}
+
+
+.number-big{
+	font-size: 50px;
+	color: rgba(60,185,122,0.7);
+}
+
+
+.team-names{
+	border-top: solid 2px rgba(60,185,122,0.7);
+	border-bottom: solid 3px rgba(60,185,122,0.7);
+	margin-bottom: 15px;
+	color: rgba(60,185,122,0.9);
+	text-align: left;
+}
+
+.social-links{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+	.social-links a{
+		font-size: 18px;
+		padding: 10px;
+		flex-grow: 1;
+		color: white;
+	}
+	.fb{
+		background-color: #3b5998;
+	}
+	.gp{
+		background-color: #d62d20;
+	}
+	.db{
+		background-color: #C73B6F;
+	}
+	.tt{
+		background-color: #4099FF;
+	}
+	.yt{
+		background-color: #cc181e;
+	}
+	.social-links a:hover{
+		opacity: 0.5;
+		transition: opacity 200ms;
+	}
+
+.container--purple{
+	background-color: rgba(163, 71, 255,1);
+	color: white;
+}
+.features{
+	padding: 30px 60px;
+}
+	.features__item h3{
+		padding: 15px 0;
+		width: 190px;
+	}
+	.features__item p{
+		padding: 40px 0;
+	}
+	.features__button{
+		border: solid 3px white;
+		color: white;
+		font-size: 17px;
+		padding: 10px 45px;
+	}
+	.features__item img{
+		width: 100%;
+		height: 100%;
+	}
+
+	.features__item a:hover{
+		text-decoration: none;
+		color: #A347FF;
+		background-color: white;
+		transition: color 200ms, background-color;
+	}
+
+.heart{
+	font-size: 30px;
+	color: red;
+}
+.quotebox{
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px 0;
+}
+	.quotebox img{
+		display: inline-block;
+		padding-right: 15px;
+		max-width: 196px;
+		max-height: 186px;
+	}
+	.quotebox__text{
+		display: inline-block;
+	}
+@media (max-width: 767px){
+	.quotebox{
+		flex-direction: column;
+	}
+}
+.text{
+	font-size: 18px;
+}
+
+.portfolio h2{
+	margin: 0 0 45px 0;
+}
+.portfolio-img{
+	position: relative;
+}
+
+
+.works__overlay{
+	background-color: rgba(221,218,177,0.5);
+	position: absolute;
+	width: 100%;	
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.works__overlay img{
+	margin: 5px;
+}
+
+.works__link:hover .works__overlay{
+		opacity: 1;
+		transition: opacity 250ms;
+}
+
+
+.footer-nav{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+	.footer-nav__item{
+
+	}
+	.footer-nav__link{
+		color: white;
+	}
+	.footer-nav__link:hover{
+		text-decoration: none;
+		color: #FF00F3;
+		cursor: pointer;
+	}
+
+.footer-top{
+	color: white;
+	background-color: rgba(57,186,111,0.6);
+	padding: 50px 30px;
+}
+	.footer-top h3{
+		margin-bottom: 20px;
+	}
+.footer-low{
+	color: white;
+	background-color: rgba(28,113,63,0.8);
+	padding: 15px 0;
+}	
+
+.contact-form__item{
+	width:100%;
+	margin: 5px 0;
+	padding: 5px;
+}
+	.contact-form__item:focus{
+		border: solid 2px lime;
+	}
+	.text-area{
+		resize: none;
+		height: 100px;
+	}
+
+.tags{
+	display: flex
+}
+	.tags a{
+		color: white;
+		background-color: rgba(28,113,63,0.8);
+		padding: 5px 10px;
+	}
+	.tags a:hover{
+		text-decoration: none;
+	}
+	.tags__item{
+		margin: 10px 2px;
+	}
